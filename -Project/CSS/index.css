@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    position: relative;
+    background-color: rgb(231, 231, 231);
+}
+
+.back-image > img{
+    margin: 2vw;
+    margin-left: 10vw;
+    height: 40vh;
+    width: 80vw;
+    border-radius: 30px;
+    box-shadow: 0 0 8px  rgb(28, 144, 12);
+}
+
+.todo-box{
+    position: absolute;
+    top: 30vh;
+    left: 30vw;
+    height: 60vh;
+    width: 40vw;
+    border-radius: 30px;
+    box-shadow: 0 0 8px 2px white;
+    background-color: white;
+    overflow: hidden;
+   }
+.todo-list{
+    padding: 1rem;
+    overflow: hidden;
+}
+.todo-list > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+.show-priority{
+    background-color: #367BF5;
+    padding:0 7px;
+    border-radius: 20px;
+}
+
+.delete-div > button{
+    color: white;
+    background-color: red;
+    padding: 4px 1rem;
+    border-radius: 20px;
+   
+}
+
+.todo-headline{
+    
+    width: 40vw;
+    position: absolute;
+    top: 23vh;
+    left: 30vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 2rem;
+    font-weight: bold;
+    /* background-color: yellow; */
+}
+.div-button > button{
+    padding: 0.4rem 0.5rem;
+    background-color: #367BF5;
+    border-radius: 30px;
+    color: white;
+}
+.heading{
+    font-size: xx-large;
+}
+
+.todo-input-box{
+    position: absolute;
+    top: 35vh;
+    left: 41vw;
+    height: 50vh;
+    width: 18vw;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 8px whitesmoke;
+    background-color: white;
+    visibility: hidden;
+}
+.popup{
+   width: 100%;
+}
+.input-detail > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    margin: 0.3rem;
+}
+
+.input-detail >div >label{
+    margin: 0.25rem 0;
+    margin-right: 45%;
+}
+.input-detail >div >input{
+    border-radius: 30px;
+    border:  #367BF5;
+    background-color: #C481FF;
+    padding: 0.4rem 2rem;
+}
+.input-detail >div >textarea{
+    border-radius: 20px;
+    border:  #367BF5;
+    background-color: #C481FF;
+    padding: 0.4rem 2rem;
+}
+.submitContainer{
+    padding: 5px;
+    background-color: #367BF5;
+}
+
+.save >button{
+    padding: 4px 0.5rem;
+    border:  #367BF5;
+    background-color: #367BF5;
+    border-radius: 20px;
+    color: white;
+    padding: 0.2rem 1rem;
+}

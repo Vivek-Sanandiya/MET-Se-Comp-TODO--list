@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TO DO LIST</title>
+        <link rel="stylesheet" href="./CSS/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <section class="page">
+            <div class="back-image">
+            <img src="./IMAGE/forest_img.jpg" alt="">
+            </div>
+            <div class="todo-headline">
+                <div class="div-button" id="add-button"><button>Add todo</button></div>
+                <div class="heading">TO DO</div>
+            </div>
+            <section class="todo-box">
+                <section class="todo-list">
+                <div>
+                    <div>
+                    <h2>Complete html lerning <b class="show-priority">!!</b> </h2>
+                    <span>need to complete </span>
+                    </div>
+                    <div class="delete-div"><button class="delete-button"><i class="fa fa-trash-o" aria-hidden="true"></i></button></div>
+                </div>
+                <div>
+                    <div>
+                    <h2>Complete html lerning <b class="show-priority">!!!</b></h2>
+                    <span>need to complete </span>
+                    </div>
+                    <div class="delete-div"><button class="delete-button"><i class="fa fa-trash-o" aria-hidden="true"></i></button></div>
+                </div>
+                
+                
+
+                </section>
+            </section>
+        </section>
+
+        <section class="todo-input-box">
+            <div class="popup">
+                <div class="input-detail">
+                    
+                    <div class="name">
+                        <label for="name1">ToDo name</label>
+                        <input type="text" id="name1">
+                    </div>
+                    <div class="description">
+                        <label for="description">Description</label>
+                        <textarea name="" id="description" cols="22" rows="9"></textarea>
+                    </div>
+                    <div class="priority">
+                        <div class="priorityLabel" ><label for="priority">Priority</label></div>
+                        <div class="priorityInput">
+                            <select name="Priority" id="priorityS">
+                                <option value="">---Select---</option>
+                                <option value="high">High</option>
+                                <option value="medium">Medium</option>
+                                <option value="low">Low</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="submitContainer">
+                        <button class="save">Save</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="./JS/index.js"></script>
+    </body>
+</html>
+
